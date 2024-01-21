@@ -1,8 +1,61 @@
+/* Create fonts for every page */
 body {
     font-family: "Handlee", cursive;
     font-weight: 400;
     font-style: normal;
   }
+
+/* Sidebar navigation menu every page */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links for every page */
+.sidebar nav a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active page */
+.sidebar nav a.active {
+  background-color: aqua;
+  color: white;
+}
+
+/* Sidebar links on mouse-over */
+.sidebar nav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar nav a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;  
+  }
+}
 
 
 
