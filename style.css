@@ -16,12 +16,27 @@ body {
   overflow: auto;
 }
 
-/* Sidebar links for every page */
-.sidebar nav a {
-  display: block;
+/* Name of the website for every page in the sidebar */
+.sidebar a.name {
+  display: inline-block;
   color: black;
   padding: 16px;
   text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 10px;
+}
+/* Sidebar links for every page */
+.sidebar nav a {
+  display: block;
+  width: 150px;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 /* Active page */
@@ -51,6 +66,33 @@ div.content {
   }
   .sidebar nav a {
     float: left;
+    font-size: 20px;
+    width: 90px;
+    text-align: center;
+  }
+  .sidebar a.name {
+    margin-left: 180px;
+  }
+  div.content {
+    margin-left: 0;  
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar nav a {
+    float: left;
+    font-size: 20px;
+    width: 140px;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .sidebar a.name {
+    margin-left: 150px;
   }
   div.content {
     margin-left: 0;  
