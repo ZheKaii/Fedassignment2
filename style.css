@@ -65,11 +65,11 @@ div.content {
 
 .wrapper {
   background-color: white;
-  padding: 1.5rem 4rem 3rem 4rem;
+  padding: 24px 64px 48px 64px;
   width: 600px;
   height: 680px;
-  border-top-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
   position: relative;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -103,22 +103,22 @@ div.content {
   font-weight: 500;
   background-color: aqua;
   color: white;
-  padding: 0.2rem 0.4rem;
-  border-radius: 0.2rem;
-  margin-top: 0.5rem;
+  padding: 3.2px 6.4px;
+  border-radius: 3.2px;
+  margin-top: 8px;
   display: inline-block;
 }
 
 .options {
   list-style-type: none;
-  margin: 1rem 0;
+  margin: 16px 0;
 }
 
 .options li {
-  border-radius: 0.5rem;
+  border-radius: 8px;
   font-weight: 600;
-  margin: 0.7rem 0;
-  padding: 0.4rem 1.2rem;
+  margin: 11.2px 0;
+  padding: 6.4px 19.2px;
   cursor: pointer;
   border: 3px solid aqua;
   background-color: aqua;
@@ -147,12 +147,12 @@ div.content {
 
 .foot button {
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   outline: 0;
   font-family: "Handlee", cursive;
-  font-size: 1.2rem;
+  font-size: 19.2px;
   font-weight: 600;
-  padding: .5rem 1rem;
+  padding: 8px 16px;
   margin: 0 auto;
   text-transform: uppercase;
   cursor: pointer;
@@ -178,10 +178,10 @@ div.content {
 }
 
 #result {
-  padding: 0.7rem 0;
+  padding: 11.2px 0;
   text-align: center;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 20.8px;
 }
 
 #result i {
@@ -189,8 +189,8 @@ div.content {
   height: 30px;
   border-radius: 50%;
   line-height: 30px;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-right: 8px;
+  margin-bottom: 8px;
   background-color: aqua;
   color: black;
 }
