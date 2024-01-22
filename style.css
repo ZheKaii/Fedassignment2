@@ -177,6 +177,24 @@ div.content {
   display: none;
 }
 
+#result {
+  padding: 0.7rem 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+#result i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: aqua;
+  color: black;
+}
+
 
 @media screen and (max-width: 576px) {
   .sidebar {
