@@ -102,14 +102,13 @@
         },
         {
             "type": "multiple",
-            "difficulty": "easy",
-            "category": "Entertainment: Video Games",
-            "question": "Who created the indie adventure game &quot;Night in the Woods&quot;?",
-            "correct_answer": "Alec Holowka",
+            "category": "Character",
+            "question": "Along with Zhask and Yve, who is another hero that is an alien?",
+            "correct_answer": "Karrie",
             "incorrect_answers": [
-                "Ron Gilbert",
-                "Tim Schafer",
-                " Tommy Refenes"
+                "Cyclops",
+                "Bane",
+                "Gord"
             ]
         }
     ]
