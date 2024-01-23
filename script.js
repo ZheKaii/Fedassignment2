@@ -7,6 +7,16 @@ const _totalQuestion = document.getElementById('totalquestion');
 const _checkBtn = document.getElementById('submit');
 const _playAgainBtn = document.getElementById('playagain');
 const _result = document.getElementById('result');
+const APIKEY = '65ae08f3083acec9f39cf11a';
+
+let settings = {
+    method: "GET",
+    headers: {
+        "Content-Type": "application/json",
+        "x-apikey": APIKEY,
+        "Cache-Control": "no-cache"
+    }
+}
 
 let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
 
@@ -23,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function loadQuestion() {
-    const APIurl = 'https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple';
-    const result = await fetch(`${APIurl}`);
+    const APIurl = 'data.json';
+    const result = await fetch(APIurl);
     const data = await result.json();
     _result.innerHTML = "";
     showQuestion(data.results[0]);
