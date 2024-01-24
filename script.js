@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function loadQuestion() {
-    const APIurl = 'data.json';
+    const APIurl = 'https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple';
     const result = await fetch(APIurl);
     const data = await result.json();
     _result.innerHTML = "";
