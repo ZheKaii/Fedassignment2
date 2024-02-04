@@ -73,6 +73,32 @@ div.content {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.profile{
+  background-color: white;
+  padding: 24px 64px 48px 64px;
+  width: 1000px;
+  height: 680px;
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.profile .sContainer{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(190, 190, 190);
+
+}
+
+.profile .mContainer{
+  width: 500px;
+  height: 250px;
+  background-color: rgb(190, 190, 190);
+
+}
+
 .leader {
   display: flex;
   width: 600  px;
