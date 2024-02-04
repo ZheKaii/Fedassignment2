@@ -7,16 +7,6 @@ const _totalQuestion = document.getElementById('totalquestion');
 const _checkBtn = document.getElementById('submit');
 const _playAgainBtn = document.getElementById('playagain');
 const _result = document.getElementById('result');
-const APIKEY = '65ae08f3083acec9f39cf11a';
-
-let settings = {
-    method: "GET",
-    headers: {
-        "Content-Type": "application/json",
-        "x-apikey": APIKEY,
-        "Cache-Control": "no-cache"
-    }
-}
 
 let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
 
@@ -33,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function loadQuestion() {
-    const APIurl = 'https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple';
+    const APIurl = 'https://opentdb.com/api.php?amount=10&category=21&type=multiple';
     const result = await fetch(APIurl);
     const data = await result.json();
     _result.innerHTML = "";
@@ -117,4 +107,18 @@ function restartQuiz() {
     _checkBtn.disabled = false;
     setCount();
     loadQuestion();
+}
+
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('animation'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://lottie.host/94c19622-0c82-4f94-b52c-7d87f4c51adf/Y1rFiailTo.json'
+});
+
+window.onload = function() {
+    setTimeout(function() {
+        document.getElementById('animation').style.display = 'none';
+    }, 1000);
 }
