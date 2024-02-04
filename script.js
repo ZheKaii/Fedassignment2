@@ -1,5 +1,3 @@
-//https://opentdb.com/api.php?amount=10&category=20&difficulty=medium&type=multiple
-
 const _question = document.getElementById('question');
 const _options = document.querySelector('.options');
 const _correctScore = document.getElementById('totalscore');
