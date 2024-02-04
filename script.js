@@ -120,5 +120,5 @@ var animation = bodymovin.loadAnimation({
 window.onload = function() {
     setTimeout(function() {
         document.getElementById('animation').style.display = 'none';
-    }, 1000);
+    }, 500);
 }
