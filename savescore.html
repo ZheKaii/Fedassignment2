@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devicewidth, intial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Sports Quiz</title>
+        <link rel="icon" type="image/x-icon" href="../Images/sportsfavicon.jpg">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sidebar">
+            <a class="name" href="index.html">SPORTS QUIZ</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a class="active" href="game.html">Quiz</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="profile.html">Profile</a>
+                <a href="feedback.html">Feedback</a>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <div class="foot">
+                    <h1 id="totalscore"></h1>
+                    <form>
+                        <input type="text" name="username" id="username" placeholder="username">
+                        <button type="submit" class="btn" id="saveScoreBtn">Save</button>
+                    </form>
+                    <a class="btn" href="game.html">Play Again!</a>
+                    <a class="btn" href="index.html">Go Home</a>
+                </div>
+            </div>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>

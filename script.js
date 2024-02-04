@@ -6,6 +6,8 @@ const _checkBtn = document.getElementById('submit');
 const _playAgainBtn = document.getElementById('playagain');
 const _result = document.getElementById('result');
 const questionCounterText = document.getElementById('questionCounter');
+const savescore = document.getElementById('savescore');
+const username = document.getElementById('username');
 
 let correctAnswer = "", correctScore = 0, askedCount = 1, totalQuestion = 10, countingtenquestion = 11;
 questionCounterText.innerText = askedCount + "/" + totalQuestion;
@@ -88,6 +90,7 @@ function checkCount() {
         _result.innerHTML = `<p> Your score is ${correctScore}. </p>`;
         _playAgainBtn.style.display = "block";
         _checkBtn.style.display = "none";
+        savescore.style.display = "block";
     }
     else {
         setTimeout(() => {
@@ -106,6 +109,7 @@ function restartQuiz() {
     questionCounterText.innerText = askedCount + "/" + totalQuestion;
     _playAgainBtn.style.display = "none";
     _checkBtn.style.display = "block";
+    savescore.style.display = "block";
     _checkBtn.disabled = false;
     setCount();
     loadQuestion();
