@@ -5,8 +5,10 @@ const _totalQuestion = document.getElementById('totalquestion');
 const _checkBtn = document.getElementById('submit');
 const _playAgainBtn = document.getElementById('playagain');
 const _result = document.getElementById('result');
+const questionCounterText = document.getElementById('questionCounter');
 
-let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
+let correctAnswer = "", correctScore = 0, askedCount = 1, totalQuestion = 10, countingtenquestion = 11;
+questionCounterText.innerText = askedCount + "/" + totalQuestion;
 
 function eventListener() {
     _checkBtn.addEventListener('click', checkAnswer);
@@ -78,7 +80,8 @@ function HTMLDecode(textString) {
 function checkCount() {
     askedCount++;
     setCount();
-    if (askedCount == totalQuestion) {
+    questionCounterText.innerText = askedCount + "/" + totalQuestion;
+    if (askedCount == countingtenquestion) {
         setTimeout(() => {
             console.log("");
         }, 5000);
@@ -99,7 +102,8 @@ function setCount() {
 }
 
 function restartQuiz() {
-    correctScore = askedCount = 0;
+    correctScore = 0, askedCount = 1;
+    questionCounterText.innerText = askedCount + "/" + totalQuestion;
     _playAgainBtn.style.display = "none";
     _checkBtn.style.display = "block";
     _checkBtn.disabled = false;
