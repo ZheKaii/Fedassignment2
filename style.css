@@ -85,6 +85,11 @@ div.content {
   flex-wrap: wrap;
 }
 
+.profile .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .profile .sContainer{
   width: 250px;
   height: 250px;
@@ -93,10 +98,18 @@ div.content {
 }
 
 .profile .mContainer{
-  width: 500px;
+  width: 680px;
   height: 250px;
+  margin-left: 5%;
   background-color: rgb(190, 190, 190);
 
+}
+
+.profile .achievement{
+  width:980px;
+  height: 250px;
+  background-color: rgb(190, 190, 190);
+  margin-top: 5%;
 }
 
 .leader {
