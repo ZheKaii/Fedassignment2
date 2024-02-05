@@ -65,6 +65,11 @@ function validateForm() {
     return true;
 }
 
+function submitFeedback() {
+    alert('You have submitted your feedback!');
+    location.reload();
+}
+
 // This method is to switch to sign in page ##not working
 signinBtn.onclick = function(){
     nameField.style.maxHeight = "0";

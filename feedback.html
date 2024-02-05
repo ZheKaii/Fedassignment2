@@ -23,14 +23,24 @@
             </nav>
         </div>
         <div class="content">
-
+            <div class="wrapper">
+                <h1 class="title">SPORTS QUIZ</h1>
+                <h2 class="feedback">Share Your Feedback</h2>
+                <h3 class="category">
+                    Your feedback is invaluable to us! We're committed in making this application
+                    the best it can be, and your input plays a crucial role in shaping its future. 
+                    Whether you have suggestion for new features, improvements to existing ones, or simply 
+                    want to share your experience, we want to hear from you! Your feedback will help us understand
+                    what you love about the app and where we can make adjustments to better server your needs. So 
+                    don't hesitate! Share your thoughts with us today and be a part of shaping the ultimate sports quiz 
+                    experience!
+                </h3>
+                <label for="fdback" id="feedback">Feedback</label><textarea id="fdback" name="fdback" placeholder="Write your feedback"></textarea>
+                <div class="foot">
+                    <button type="button" onclick="return submitFeedback()">Submit</button>
+                </div>
+            </div>
         </div>
-
-
-
-
-
-
-        <script src = "script.js"></script>
+        <script src = "validation.js"></script>
     </body>
 </html>
