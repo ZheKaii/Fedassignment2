@@ -1,3 +1,5 @@
+// Setting up the variables
+
 const _question = document.getElementById('question');
 const _options = document.querySelector('.options');
 const _correctScore = document.getElementById('totalscore');
@@ -9,6 +11,9 @@ const questionCounterText = document.getElementById('questionCounter');
 const savescore = document.getElementById('savescore');
 const username = document.getElementById('username');
 
+// Setting up the variables
+
+// Making of the quiz
 let correctAnswer = "", correctScore = 0, askedCount = 1, totalQuestion = 10, countingtenquestion = 11;
 questionCounterText.innerText = askedCount + "/" + totalQuestion;
 
@@ -115,6 +120,10 @@ function restartQuiz() {
     loadQuestion();
 }
 
+// Making of the quiz
+
+// Making the lottie in the quiz
+
 var animation = bodymovin.loadAnimation({
     container: document.getElementById('animation'),
     renderer: 'svg',
@@ -128,3 +137,5 @@ window.onload = function() {
         document.getElementById('animation').style.display = 'none';
     }, 500);
 }
+
+// Making the lottie in the quiz

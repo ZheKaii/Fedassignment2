@@ -23,28 +23,40 @@
             </nav>
         </div>
         <div class="content">
-            <div class="profile">
-                <div class="container">
-                  <div class="sContainer">
-                    <h1>pic</h1>
+            <div class="container">
+                <div class="form-box">
+                    <h1 id="title1">Sign Up</h1> <!-- This is the title for the page -->
+                    <form>
+                        <div class="input-group"> <!-- This is to group all the input-fields together -->
+                            <div class="input-field" id="nameField">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" placeholder="Enter your name" id="name" onkeyup="validateName()"> <!-- This is the name input-field -->
+                                <span id="name-error"></span> <!-- This is to catch any name error -->
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" placeholder="Enter your email" id="email" onkeyup="validateEmail()"> <!-- This is the email input-field -->
+                                <span id="email-error"></span> <!-- This is to catch any email error -->
+                            </div>
+                            <div class="input-field">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="password" placeholder="Enter your password" id="password" onkeyup="validatePassword()"> <!-- This is the password input-field -->
+                                <span id="password-error"></span> <!-- This is to catch any password error -->
+                            </div>
+                            <p>Lost password <a href="#">Click Here!</a></p>
+                        </div>
+                        <div class="btn-field"> <!-- This is to group the sign in/sign up button together -->
+                            <button type="button" id="signupBtn">Sign Up</button>
+                            <button type="button" id="signinBtn" class="disable">Sign In</button>
+                        </div>
+                        <div class="submit-field"> <!-- This is to group the submit button -->
+                            <button onclick="return validateForm()">Confirm</button>
+                            <span id="submit-error"></span> <!-- This is to catch any submit error -->
+                        </div>
+                    </form>
                 </div>
-                <div class="mContainer">
-                    <h1>level</h1>
-                </div>  
-                <div class="achievement">
-                    <h1>achievement</h1>
-                </div>
-                </div>
-                
             </div>
-
         </div>
-
-
-
-
-
-
-        <script src = "script.js"></script>
+        <script src = "validation.js"></script>
     </body>
 </html>
