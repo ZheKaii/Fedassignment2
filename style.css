@@ -59,6 +59,7 @@ div.content {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../Images/sports-background.png);
   background-color: rgba(0, 149, 255, 0.27);
 }
 
