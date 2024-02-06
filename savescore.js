@@ -28,8 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("https://fedassignment2-8ffd.restdb.io/rest/userinformation", settings)
             .then(response => response.json())
             .then(data => {
+                console.log(data)
                 document.getElementById("saveScoreBtn").disabled = false;
                 getSaveScore();
+                submitScore();
                 document.getElementById("update-score-form").reset();
             });
     })
@@ -57,5 +59,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 document.getElementsByClassName("leader").getElementsByTagName("tbody")[0].innerHTML = content;
             });
+    }
+
+    function submitScore() {
+        alert('You have saved your score!');
     }
 });
