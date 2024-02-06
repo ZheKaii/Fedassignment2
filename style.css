@@ -222,6 +222,7 @@ input[type=submit]:hover {
   box-shadow: 0 4px 0 0 rgb(108, 196, 209);
   text-decoration: none;
   text-align: center;
+  margin-top: 30px;
 }
 
 #home img {
@@ -320,6 +321,7 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 200px;
 }
 
 .foot input {
