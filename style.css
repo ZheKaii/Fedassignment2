@@ -63,6 +63,8 @@ div.content {
   background-color: rgba(0, 149, 255, 0.27);
 }
 
+/* Styling of the wrapper that is the background of the content */
+
 .wrapper {
   background-color: white;
   padding: 24px 64px 48px 64px;
@@ -74,10 +76,14 @@ div.content {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling the title of every page */
+
 .title {
   text-align: center;
   font-size: 32px;
 }
+
+/* Styling of the feedback textarea */
 
 .feedback {
   text-align: center;
@@ -96,6 +102,9 @@ textarea {
   resize: vertical;
 }
 
+
+/* Styling the submit button */
+
 input[type=submit] {
   background-color: lightgray;
   color: white;
@@ -105,13 +114,19 @@ input[type=submit] {
   display: block;
 }
 
+/* Styling the submit button when hovering */
+
 input[type=submit]:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+/* Styling the word 'feedback' */
+
 #feedback {
   font-size: 24px;
 }
+
+/* Styling the score */
 
 .score {
   text-align: center;
@@ -125,12 +140,16 @@ input[type=submit]:hover {
   color: aqua;
 }
 
+/* Styling the quiz questions */
+
 .quiz-question {
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
   margin-bottom: 32px;
 }
+
+/* Styling the type of category in the quiz */
 
 .quiz-question .category {
   font-size: 14px;
@@ -142,6 +161,8 @@ input[type=submit]:hover {
   margin-top: 8px;
   display: inline-block;
 }
+
+/* Styling of the option */
 
 .options {
   list-style-type: none;
@@ -161,6 +182,8 @@ input[type=submit]:hover {
   transition: all 300ms ease-in-out;
 }
 
+/* Styling of the option when hovering */
+
 .options li:hover {
   background-color: rgb(239, 238, 238);
   color: black;
@@ -171,6 +194,8 @@ input[type=submit]:hover {
 .options li:active {
   transform: scale(0.97);
 }
+
+/* Styling of the option when selected */
 
 .selected {
   background-color: lightgray!important;
@@ -185,6 +210,8 @@ input[type=submit]:hover {
   margin-bottom: 30px;
 }
 
+/* Styling the category selection in the game page */
+
 #categories {
   width: 200px;
   height: 40px;
@@ -194,6 +221,8 @@ input[type=submit]:hover {
   font-weight: 400;
   font-style: normal;
 }
+
+/* Styling of the button that moves to another page */
 
 .foot .btn {
   border: none;
@@ -217,6 +246,8 @@ input[type=submit]:hover {
   margin-top: 30px;
 }
 
+/* Styling of the image at home page */
+
 #home img {
   width: 460px;
   height: 280px;
@@ -226,10 +257,13 @@ input[type=submit]:hover {
   margin-bottom: 8px;
 }
 
+/* Styling the word 'category' */
+
 #category {
   text-align: center;
 }
 
+/* Styling of the button that moves to another page when hovering */
 .foot .btn:hover {
   background-color: rgb(239, 238, 238);
   box-shadow: 0 4px 0 0 lightgray;
@@ -238,6 +272,8 @@ input[type=submit]:hover {
 .foot .btn:active {
   transform: scale(0.95);
 }
+
+/* Styling of the button in the quiz */
 
 .foot button {
   border: none;
@@ -258,6 +294,8 @@ input[type=submit]:hover {
   box-shadow: 0 4px 0 0 lightgray;
 }
 
+/* Styling of the button in the quiz when hovering */
+
 .foot button:hover {
   background-color: lightgray;
   box-shadow: 0 4px 0 0 gray;
@@ -267,6 +305,8 @@ input[type=submit]:hover {
   transform: scale(0.95);
 }
 
+/* These 2 is to style the buttons in the quiz*/
+
 #playagain {
   display: none;
 }
@@ -274,6 +314,8 @@ input[type=submit]:hover {
 #savescore {
   display: none;
 }
+
+/* Styling of the result of the quiz */
 
 #result {
   padding: 11.2px 0;
@@ -293,11 +335,15 @@ input[type=submit]:hover {
   color: black;
 }
 
+/* Styling of the lottie animation */
+
 #animation {
   width: 300px;
   height: 300px;
   margin: auto;
 }
+
+/* These 2 is to style the heads up display */
 
 .hud-prefix {
   text-align: center;
@@ -308,6 +354,8 @@ input[type=submit]:hover {
   text-align: center;
 }
 
+/* Styling of the form */
+
 .foot form {
   width: 100%;
   display: flex;
@@ -315,6 +363,8 @@ input[type=submit]:hover {
   align-items: center;
   margin-top: 200px;
 }
+
+/* Styling of the input field */
 
 .foot input {
   margin-bottom: 1rem;
@@ -326,30 +376,39 @@ input[type=submit]:hover {
   background-color: rgb(239, 238, 238);
 }
 
+/* Styling of the input field when hovering */
+
 .foot input:hover {
   opacity: 0.7;
 }
+
+/* Style the final score from the user */
 
 #finalScore {
   text-align: center;
 }
 
+/* Style the table */
+
 table {
   width: 85%;
 }
 
+/* This is to style the sub-header 'Username' and 'Score' */
+
 th {
   font-size: 25px;
 }
+
+/* This is to style the information taken from restDB */
 
 tbody {
   font-size: 20px;
   text-align: center;
 }
 
-/* Styling for the profile page */
-
 /* This is to style the container for the account page */
+
 .container {
   width: 100%;
   height: 100vh;
@@ -358,7 +417,9 @@ tbody {
   position: relative;
   animation: fadeIn 2s;
 }
+
 /* This is to style the form */
+
 .form-box {
   width: 90%;
   max-width: 600px;
@@ -374,13 +435,17 @@ tbody {
   border-bottom-right-radius: 24px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
+
 /* This is to style the title of the form */
+
 .form-box h1 {
   font-size: 30px;
   margin-bottom: 60px;
   position: relative;
 }
+
 /* This is to style the line below the title of the form */
+
 .form-box h1::after {
   content: '';
   width: 30px;
@@ -392,7 +457,9 @@ tbody {
   left: 50%;
   transform: translateX(-50%);
 }
+
 /* This is to style the input field of the form */
+
 .input-field {
   background: #eaeaea;
   margin: 15px 0;
@@ -403,7 +470,9 @@ tbody {
   transition: max-height 0.5s;
   overflow: hidden;
 }
+
 /* This is to style the inputs of the input field of the form */
+
 .input-field input {
   width: 100%;
   background: transparent;
@@ -413,34 +482,48 @@ tbody {
   font-family: 'Handlee', cursive;
   font-size: 18px;
 }
+
 /* This is to have a hovering effect */
+
 .input-field:hover {
   opacity: 0.7;
 }
+
 /* This is also to style the form */
+
 .input-field i {
   color: #999;
 }
+
 /* This is to style the 'Lost Password' */
+
 form p {
   text-align: left;
   font-size: 13px;
 }
+
 /* This is to style the 'Click Here!' */
+
 form p a {
   text-decoration: none;
   color: black;
   font-weight: 1000;
 }
+
 /* This is to have a hovering effect */
+
 form p a:hover {
   opacity: 0.7;
 }
+
 /* This is to style the submit area */
+
 .submit-field {
   margin-top: 20px;
 }
+
 /* This is to style the button of the submit area */
+
 .submit-field button {
   background-color: black;
   outline: 0;
@@ -448,17 +531,23 @@ form p a:hover {
   height: 30px;
   font-family: 'Handlee', cursive;
 }
+
 /* This is to have a hovering effect */
+
 .submit-field button:hover {
   opacity: 0.7;
 }
+
 /* This is to style the button area */
+
 .btn-field {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 /* This is to style the button of the button area */
+
 .btn-field button {
   flex-basis: 48%;
   background: black;
@@ -471,23 +560,31 @@ form p a:hover {
   transition: background 1s;
   font-family: 'Handlee', cursive;
 }
+
 /* This is to style all those in input-group */
+
 .input-group {
   height: 280px;
 }
+
 /* This is to style the button that is not chosen */
+
 .btn-field button.disable {
   background: #eaeaea;
   color: #555;
 }
+
 /* This is to style the errors of the form */
+
 .input-group span {
   position: absolute;
   right: 70px;
   font-size: 14px;
   color: red;
 }
+
 /* This is to style the submit error of the form #notworking*/
+
 #submit-error {
   color: red;
   position: absolute;
@@ -495,7 +592,7 @@ form p a:hover {
   left: 230px;
 }
 
-/* Styling for the profile page */
+/* Styling the pages when the screen has a max width of 700px of lower */
 
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -520,6 +617,10 @@ form p a:hover {
   }
 }
 
+/* Styling the pages when the screen has a max width of 700px of lower */
+
+/* Styling the pages when the screen has a max width of 560px of lower */
+
 @media screen and (max-width: 560px) {
   .sidebar {
     width: 100%;
@@ -541,6 +642,8 @@ form p a:hover {
     margin-left: 0;  
   }
 }
+
+/* Styling the pages when the screen has a max width of 560px of lower */
 
 
 

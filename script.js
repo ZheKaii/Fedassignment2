@@ -14,6 +14,7 @@ const username = document.getElementById('username');
 // Setting up the variables
 
 // Making of the quiz
+
 let correctAnswer = "", correctScore = 0, askedCount = 1, totalQuestion = 10, countingtenquestion = 11;
 questionCounterText.innerText = askedCount + "/" + totalQuestion;
 
@@ -29,6 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
     _correctScore.textContent = correctScore;
 });
 
+// Loading of the question
+
 async function loadQuestion() {
     const APIurl = 'https://opentdb.com/api.php?amount=10&category=21&type=multiple';
     const result = await fetch(APIurl);
@@ -36,6 +39,8 @@ async function loadQuestion() {
     _result.innerHTML = "";
     showQuestion(data.results[0]);
 }
+
+// Showing the question
 
 function showQuestion(data) {
     _checkBtn.disabled = false;
@@ -48,6 +53,8 @@ function showQuestion(data) {
     selectOptions();
 }
 
+// Selecting the options
+
 function selectOptions() {
     _options.querySelectorAll('li').forEach((option) => {
         option.addEventListener('click', () => {
@@ -59,6 +66,8 @@ function selectOptions() {
         });
     });
 }
+
+// Checking the answer
 
 function checkAnswer() {
     _checkBtn.disabled = true;
@@ -83,6 +92,8 @@ function HTMLDecode(textString) {
     let doc = new DOMParser().parseFromString(textString, "text/html");
     return doc.documentElement.textContent;
 }
+
+// Checking the number of questions
 
 function checkCount() {
     askedCount++;
@@ -109,6 +120,8 @@ function setCount() {
     _correctScore.textContent = correctScore;
 }
 
+// Reset the quiz
+
 function restartQuiz() {
     correctScore = 0, askedCount = 1;
     questionCounterText.innerText = askedCount + "/" + totalQuestion;
@@ -119,8 +132,6 @@ function restartQuiz() {
     setCount();
     loadQuestion();
 }
-
-// Making of the quiz
 
 // Making the lottie in the quiz
 

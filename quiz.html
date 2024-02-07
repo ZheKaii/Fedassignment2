@@ -10,10 +10,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script> <!-- Making use of lottie -->
     </head>
     <body>
-        <div class="sidebar">
+        <div class="sidebar"> <!-- This is the sidebar -->
             <a class="name" href="index.html">SPORTS QUIZ</a>
             <nav>
                 <a href="index.html">Home</a>
@@ -23,26 +23,26 @@
                 <a href="feedback.html">Feedback</a>
             </nav>
         </div>
-        <div class="content">
+        <div class="content"> <!-- This is the content area -->
             <div class= "wrapper">
                 <div class= "container">
                     <div class="header">
-                        <h1 class="title">Sports Quiz Game</h1>
+                        <h1 class="title">Sports Quiz Game</h1> <!-- Title -->
                         <div class="score">
-                            <span id="totalscore"></span>/<span id="totalquestion"></span>
+                            <span id="totalscore"></span>/<span id="totalquestion"></span> <!-- Score -->
                         </div>
                         <div id="hud">
                             <div id="hud-item">
                                 <p class="hud-prefix">
                                     Question
                                 </p>
-                                <h1 class="hud-main-text" id="questionCounter"></h1>
+                                <h1 class="hud-main-text" id="questionCounter"></h1> <!-- Question counter -->
                             </div>
                         </div>
                     </div>
 
-                    <div class="quizbody">
-                        <div id="animation"></div>
+                    <div class="quizbody"> <!-- This is where the quiz is -->
+                        <div id="animation"></div> <!-- This is where the lottie appears -->
                         <h2 class="quiz-question" id="question"><!--What does MLBB stand for? <br> <span class="category">Character</span>--></h2>
                         <ul class="options">
                             <!-- <li>1. Mobile Legends Bang Bang</li>
@@ -50,10 +50,10 @@
                             <li>1. Mobile Legends Bang Bang</li>
                             <li>1. Mobile Legends Bang Bang</li> -->
                         </ul>
-                        <div id="result"></div>
+                        <div id="result"></div> <!-- Result -->
                     </div>
 
-                    <div class="foot">
+                    <div class="foot"> <!-- All the buttons -->
                         <button type="button" id="submit">Submit</button>
                         <button type="button" id="playagain">Play Again!</button>
                         <a class="btn" id="savescore" href="savescore.html">Save Score</button>

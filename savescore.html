@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="sidebar">
+        <div class="sidebar"> <!-- This is the sidebar -->
             <a class="name" href="index.html">SPORTS QUIZ</a>
             <nav>
                 <a href="index.html">Home</a>
@@ -22,14 +22,14 @@
                 <a href="feedback.html">Feedback</a>
             </nav>
         </div>
-        <div class="content">
+        <div class="content"> <!-- This is the content area -->
             <div class="wrapper">
                 <div class="foot">
                     <h1 id="totalscore"></h1>
-                    <form id="update-score-form">
+                    <form id="update-score-form"> <!-- Making of the form for user to type their score for store it in restDB -->
                         <input type="text" name="username" id="username" placeholder="username">
                         <input type="text" name="score" id="pointscored" placeholder="score">
-                        <button type="submit" class="btn" id="saveScoreBtn" onclick="return submitScore()">Save</button>
+                        <button type="submit" class="btn" id="saveScoreBtn" onclick="return submitScore()">Save</button> <!-- Save button -->
                     </form>
                     <a class="btn" href="game.html">Play Again!</a>
                     <a class="btn" href="index.html">Go Home</a>
