@@ -331,12 +331,16 @@ input[type=submit]:hover {
 }
 
 table {
-  border-collapse: collapse;
-  width: 90%;
+  width: 85%;
 }
 
 th {
+  font-size: 25px;
+}
+
+tbody {
   font-size: 20px;
+  text-align: center;
 }
 
 /* Styling for the profile page */

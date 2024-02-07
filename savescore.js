@@ -49,15 +49,16 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("https://fedassignment2-8ffd.restdb.io/rest/userinformation", settings)
             .then(response => response.json())
             .then(response => {
+                response.sort((a, b) => b.score - a.score);
                 let content = "";
 
                 for (var i = 0; i< response.length; i++) {
                     content = `${content}<tr id='${response[i]._id}'>
                     <td>${response[i].username}</td>
-                    <td>${response[i].score}</td>`;
+                    <td>${response[i].score}</td></tr>`;
                 }
 
-                document.getElementsById("leaderboard-list").getElementsByTagName("tbody")[0].innerHTML = content;
+                document.getElementById("leaderboard-list").getElementsByTagName("tbody")[0].innerHTML = content;
             });
     }
 
