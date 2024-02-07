@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>${response[i].score}</td>`;
                 }
 
-                document.getElementsByClassName("leader").getElementsByTagName("tbody")[0].innerHTML = content;
+                document.getElementsById("leaderboard-list").getElementsByTagName("tbody")[0].innerHTML = content;
             });
     }
 

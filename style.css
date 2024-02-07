@@ -74,15 +74,6 @@ div.content {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.leader {
-  display: flex;
-  width: 600  px;
-  height: 80px;
-  background-color: brown;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
 .title {
   text-align: center;
   font-size: 32px;
@@ -337,6 +328,15 @@ input[type=submit]:hover {
 
 #finalScore {
   text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th {
+  font-size: 20px;
 }
 
 /* Styling for the profile page */
