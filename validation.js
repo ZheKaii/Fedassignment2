@@ -66,7 +66,10 @@ function validateForm() {
         submitError.innerHTML = 'Please fix error';
         return false;
     }
-    alert('You have signed up!');
+    else {
+        alert('You have signed up!');
+        location.reload();
+    }
     return true;
 }
 

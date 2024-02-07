@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("https://fedassignment2-8ffd.restdb.io/rest/userinformation", settings)
             .then(response => response.json())
             .then(data => {
+                
                 console.log(data)
                 document.getElementById("saveScoreBtn").disabled = false;
 

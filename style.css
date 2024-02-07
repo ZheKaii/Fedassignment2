@@ -10,16 +10,16 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
   position: fixed;
   height: 100%;
   overflow: auto;
+  background-color: rgb(45, 45, 45);
 }
 
 /* Name of the website for every page in the sidebar */
 .sidebar a.name {
   display: inline-block;
-  color: black;
+  color: white;
   padding: 16px;
   text-decoration: none;
   text-align: center;
@@ -29,7 +29,7 @@ body {
 .sidebar nav a {
   display: block;
   width: 150px;
-  color: black;
+  color: white;
   padding: 16px;
   text-decoration: none;
   font-size: 25px;
@@ -40,7 +40,7 @@ body {
 
 /* Active page */
 .sidebar nav a.active {
-  background-color: aqua;
+  background-color: rgb(3, 214, 214);
   color: white;
 }
 
@@ -67,7 +67,7 @@ div.content {
   background-color: white;
   padding: 24px 64px 48px 64px;
   width: 600px;
-  height: 680px;
+  height: 750px;
   border-top-left-radius: 24px;
   border-bottom-right-radius: 24px;
   position: relative;
@@ -231,8 +231,8 @@ input[type=submit]:hover {
 }
 
 .foot .btn:hover {
-  background-color: lightgray;
-  box-shadow: 0 4px 0 0 gray;
+  background-color: rgb(239, 238, 238);
+  box-shadow: 0 4px 0 0 lightgray;
 }
 
 .foot .btn:active {
@@ -326,6 +326,10 @@ input[type=submit]:hover {
   background-color: rgb(239, 238, 238);
 }
 
+.foot input:hover {
+  opacity: 0.7;
+}
+
 #finalScore {
   text-align: center;
 }
@@ -374,7 +378,6 @@ tbody {
 .form-box h1 {
   font-size: 30px;
   margin-bottom: 60px;
-  color: rgb(252, 193, 203);
   position: relative;
 }
 /* This is to style the line below the title of the form */
@@ -383,7 +386,7 @@ tbody {
   width: 30px;
   height: 4px;
   border-radius: 3px;
-  background: rgb(252, 193, 203);
+  background: black;
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -408,6 +411,7 @@ tbody {
   outline: 0;
   padding: 18px 15px;
   font-family: 'Handlee', cursive;
+  font-size: 18px;
 }
 /* This is to have a hovering effect */
 .input-field:hover {
@@ -425,7 +429,8 @@ form p {
 /* This is to style the 'Click Here!' */
 form p a {
   text-decoration: none;
-  color: rgb(252, 193, 203);
+  color: black;
+  font-weight: 1000;
 }
 /* This is to have a hovering effect */
 form p a:hover {
@@ -437,7 +442,7 @@ form p a:hover {
 }
 /* This is to style the button of the submit area */
 .submit-field button {
-  background-color: rgb(252, 193, 203);
+  background-color: black;
   outline: 0;
   color: white;
   height: 30px;
@@ -456,7 +461,7 @@ form p a:hover {
 /* This is to style the button of the button area */
 .btn-field button {
   flex-basis: 48%;
-  background: rgb(252, 193, 203);
+  background: black;
   color: #fff;
   height: 40px;
   border-radius: 20px;
@@ -509,8 +514,6 @@ form p a:hover {
   }
   div.content {
     margin-left: 0; 
-    background-image: none; 
-    background-color: white;
   }
   .wrapper{
     height: 800px;
