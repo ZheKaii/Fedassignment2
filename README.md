@@ -2,7 +2,7 @@
 
 This is our FED assignment 2 project 
 
-For this project, we am creating a Sports Quiz website for users to use it. This website offers and exciting platform to test the knowledge and passion of users for various sports. Users can delve into trivia ranging from historical milestones to current events, challenging themselves and competing with friends to climb the leaderboard. Whether one's expertise is in football, basketball, volleyball or beyond, there's something for everyone to enjoy and learn from on this dynamic platform. Overall, it is a website where sports enthusiasts converge to celebrate their love for the game while putting in their knowledge to the ultimate test. 
+For this project, we are creating a Sports Quiz website for users to use it. This website offers and exciting platform to test the knowledge and passion of users for various sports. Users can delve into trivia ranging from historical milestones to current events, challenging themselves and competing with friends to climb the leaderboard. Whether one's expertise is in football, basketball, volleyball or beyond, there's something for everyone to enjoy and learn from on this dynamic platform. Overall, it is a website where sports enthusiasts converge to celebrate their love for the game while putting in their knowledge to the ultimate test. 
 
 ## Design Process
 
