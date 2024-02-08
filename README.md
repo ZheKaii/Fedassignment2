@@ -79,7 +79,7 @@ In addition, our project only works on desktop and mobile devices
 
 ### Acknowledgements
 
-- We received inspiration for this project from some youtube videos
+- We received inspiration for this project from some trivia mobile application
 
 ### Contribution
 
