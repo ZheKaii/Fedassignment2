@@ -23,8 +23,11 @@
         </div>
         <div class="content"> <!-- This is the content area -->
             <div class="wrapper">
+                <div>
+                    <h2 class="title">You finished a quiz!!</h2>
+                    <dotlottie-player src="https://lottie.host/a62a77ee-d74a-4c00-9556-1d979353d92e/mg0B1puJua.json" background="transparent" speed="1" loop autoplay id="animation3"></dotlottie-player>
+                </div>
                 <div class="foot">
-                    <h1 id="totalscore"></h1>
                     <form id="update-score-form"> <!-- Making of the form for user to type their score for store it in restDB -->
                         <input type="text" name="username" id="username" placeholder="username">
                         <input type="text" name="score" id="pointscored" placeholder="score">
@@ -35,6 +38,7 @@
                 </div>
             </div>
         </div>
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
         <script src = "script.js"></script>
         <script src = "savescore.js"></script>
     </body>

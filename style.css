@@ -246,17 +246,6 @@ input[type=submit]:hover {
   margin-top: 30px;
 }
 
-/* Styling of the image at home page */
-
-#home img {
-  width: 460px;
-  height: 280px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8px;
-}
-
 /* Styling the word 'category' */
 
 #category {
@@ -335,12 +324,48 @@ input[type=submit]:hover {
   color: black;
 }
 
-/* Styling of the lottie animation */
+/* Styling of the lottie animation in the quiz */
 
 #animation {
   width: 300px;
   height: 300px;
   margin: auto;
+}
+
+/* Styling of the lottie animation in the home page */
+
+#animation2 {
+  width: 300px;
+  height: 300px;
+  margin-right: auto;
+  animation: bounceIn 1s ease forwards;
+  opacity: 0;
+}
+
+/* Adding bounce in effect for animation 2 */
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Styling the animation in the saving score page */
+
+#animation3 {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* These 2 is to style the heads up display */
@@ -361,7 +386,6 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
 }
 
 /* Styling of the input field */
