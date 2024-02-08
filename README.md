@@ -46,6 +46,7 @@ In this section, we will be talking about the features in my project
 - Javascript (To add interactions between users and the website)
 - JQuery (To simplify DOM manipulation)
 - RestDB (To store the data)
+- Lottie (To show animation)
 
 ## Testing 
 
@@ -69,9 +70,11 @@ In addition, our project only works on desktop and mobile devices
 ## Credits
 
 ### Media
+
 - The photos used in my website were obtained online in Google
 
 ### Fonts
+
 - The fonts used in my website were obtained online in Google Fonts
 
 ### Acknowledgements
