@@ -83,7 +83,7 @@ In addition, our project only works on desktop and mobile devices
 1. Heng Zhe Kai
     - contributed everything in the back-end development 
     - cleaning of code and commenting 
-    - helped in styling
+    - did styling
 
 2. Gan Yu Hong
     - helped in background image

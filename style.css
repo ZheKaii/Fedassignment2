@@ -13,13 +13,13 @@ body {
   position: fixed;
   height: 100%;
   overflow: auto;
-  background-color: rgb(220, 242, 241);
+  background-color: rgb(51, 51, 51);
 }
 
 /* Name of the website for every page in the sidebar */
 .sidebar a.name {
   display: inline-block;
-  color: rgb(0, 0, 0);
+  color: white;
   padding: 16px;
   text-decoration: none;
   text-align: center;
@@ -29,7 +29,7 @@ body {
 .sidebar nav a {
   display: block;
   width: 150px;
-  color: rgb(0, 0, 0);
+  color: white;
   padding: 16px;
   text-decoration: none;
   font-size: 25px;
