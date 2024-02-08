@@ -88,6 +88,7 @@ In addition, our project only works on desktop and mobile devices
     - contributed everything in the back-end development 
     - cleaning of code and commenting 
     - did styling
+    - did the video pitch
 
 2. Gan Yu Hong
     - helped in background image
