@@ -86,5 +86,7 @@ In addition, our project only works on desktop and mobile devices
     - helped in styling
 
 2. Gan Yu Hong
-    - helped in the design of the website
-    - making sure that the mobile view is great
+    - helped in background image
+    - helped in mobile device view 
+    - helped with the research
+    - helped in styling 
