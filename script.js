@@ -150,3 +150,18 @@ window.onload = function() {
 }
 
 // Making the lottie in the quiz
+
+// This method is to alert the user that they have submitted their feedback
+
+function submitFeedback() {
+    var feedback = document.getElementById("fdback").value;
+    if (feedback.trim() === "") {
+        alert('Please provide your feedback before submitting.');
+        return false;
+    }
+    else {
+        alert('You have submitted your feedback!');
+        location.reload();
+    }
+    return true;
+}

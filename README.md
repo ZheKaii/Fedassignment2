@@ -31,10 +31,6 @@ In this section, we will be talking about the features in my project
 
 - Feature 1 - Users will be able to see everyone that is in the leaderboard with their corresponding scores
 
-#### Profile (profile.html)
-
-- Feature 1 - Users will be able to sign up an account in the website 
-
 #### Feedback (feedback.html)
 
 - Feature 1 - Users will be able to send feedback in the website
