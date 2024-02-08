@@ -337,7 +337,7 @@ input[type=submit]:hover {
 #animation2 {
   width: 300px;
   height: 300px;
-  margin-right: auto;
+  margin: auto;
   animation: bounceIn 1s ease forwards;
   opacity: 0;
 }
