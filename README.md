@@ -72,6 +72,7 @@ In addition, our project only works on desktop and mobile devices
 ### Media
 
 - The photos used in my website were obtained online in Google
+- The animations used in my website were obtained in Lottie 
 
 ### Fonts
 
