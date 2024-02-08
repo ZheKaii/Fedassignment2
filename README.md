@@ -95,3 +95,7 @@ In addition, our project only works on desktop and mobile devices
     - helped in mobile device view 
     - helped with the research
     - helped in styling 
+
+### Github Link
+
+- https://github.com/ZheKaii/Fedassignment2.git
